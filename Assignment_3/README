@@ -1,0 +1,11 @@
+The contents of this directory will include the source file called listIPDNS.c 
+along with a makefile. This program will attempt to list all IP addresses and the 
+correspnding DNS name on the network address that the user must provide with 
+the execution of this program. The program must also be supplied with a subnet
+ mask along with the network address.
+ 
+	example of running program: "./listIPDNS 255.255.255.0 165.95.11.15"
+
+This program will output all the ip addresses on this network address, if an IP address 
+does not have available host the program will specify so. 
+Everything works with regards to the criteria provided and sufficient commenting is supplied.
